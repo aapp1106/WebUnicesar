@@ -6,7 +6,7 @@ async function postLogin()
         password: document.getElementById("pass").value
     }
     console.log(data)
-    let response = await fetch('http://3.140.151.8:8000/obtain-auth-token/',
+    let response = await fetch('http://3.140.151.8:8000/api/obtain-auth-token/',
         {method:'POST',
             body: JSON.stringify(data),
             headers: {

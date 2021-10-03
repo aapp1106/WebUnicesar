@@ -1,4 +1,4 @@
-﻿var api = 'http://3.140.151.8:8000/'
+﻿var api = 'http://3.140.151.8:8000/api/'
 
 $(document).ready(function () {
     //asdflkjasdf.
