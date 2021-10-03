@@ -209,7 +209,7 @@ function ModalHorarios(data,name) {
 
 
     var botones = "<button id='event_cancel' onclick='CloseModalBox()' type='button' class='btn btn-default btn-label-left'>CANCELAR</button>&ensp;";
-    OpenModalBox('Horarios - ' + name, formulario, botones, "bg-success-800", "modal-lg", "margin-top", "40px");
+    OpenModalBox('Horarios - ' + name, formulario, botones, "navbar-dark", "modal-lg", "margin-top", "40px");
     var Ancho = [{ className: "text-center" }, { className: "text-center" }, { className: "text-right" }, { className: "text-center" }, { className: "text-center" }, { className: "text-center" }];
     RenderTable('datatable-HistoricoPagos', [0, 1, 2, 3, 4, 5], [
         { data: 'name', className: "text-center" },
