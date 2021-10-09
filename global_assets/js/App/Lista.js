@@ -201,6 +201,7 @@ function ModalHorarios(data,name) {
     formulario += '                <th class="text-center">Miercoles</th>';
     formulario += '                <th class="text-center">Jueves</th>';
     formulario += '                <th class="text-center">Viernes</th>';
+    formulario += '                <th class="text-center">Sabado</th>';
     formulario += '            </tr>';
     formulario += '        </thead>';
     formulario += '    </table>';

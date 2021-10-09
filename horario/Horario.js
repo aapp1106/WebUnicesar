@@ -38,7 +38,8 @@ function CargarTabla(dataObj) {
                 let horario = "";
 
                 if (row.week_day == "monday") {
-                    horario = `<span >${row.start_time + ":00" + "-" + row.end_time + ":00"}</span>`
+                    horario = `<div class="col-12" >${row.name}</div>
+                                <span >${row.start_time + ":00" + "-" + row.end_time + ":00"}</span>`
                 }
                 return horario;
             }
