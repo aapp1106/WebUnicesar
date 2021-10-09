@@ -29,7 +29,6 @@ async function getHorarios()
 }
 
 function CargarTabla(dataObj) {
-    console.log(dataObj);
     TablaHorarios.destroy();
     RenderTable('datatable-Horario', [0, 1, 2, 3, 4, 5], [
         { data: 'course_name', className: "text-center" },
