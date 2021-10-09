@@ -1,4 +1,4 @@
-﻿var api = 'http://3.140.151.8:8000/'
+﻿var api = 'https://08ff-181-141-8-51.ngrok.io/'
 
 $(document).ready(function () {
     //asdflkjasdf.
