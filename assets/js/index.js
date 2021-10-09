@@ -1,6 +1,6 @@
 async function postLogin()
 {
-
+    ShowLoading()
     let data = {
         username: document.getElementById("user").value,
         password: document.getElementById("pass").value
@@ -26,5 +26,27 @@ function login(dataRes, dataUser) {
 
         window.location.href = "menu/menu.html"
     }
+    CloseLoading()
+}
 
+
+function OpenModalBoxId(idmodal) {
+    var modal2 = $("#" + idmodal);
+    modal2.modal("show");
+    modal2.on('hide.bs.modal', function (e) { return e });
+}
+
+function CloseModalBoxId(idmodal) {
+    var modal2 = $("#" + idmodal);
+    setTimeout(function () {
+        modal2.modal("hide");
+    }, 500);
+}
+
+function ShowLoading() {
+    OpenModalBoxId("pleaseWaitDialog");
+}
+
+function CloseLoading() {
+    CloseModalBoxId("pleaseWaitDialog");
 }
